@@ -1,0 +1,362 @@
+
+body {
+	display: block;
+	margin: 0px;
+	background-color:white;	
+	background-repeat:repeat;
+}
+
+#count{
+	
+	margin        : 20px 0px 20px 0px;
+	display       : block;
+	font-size   : 20px;
+	font-family : Courial;
+	font-weight : normal;	
+	text-align : center;	
+	color:#999;
+	
+}
+
+#myHr{
+
+	border: 0;
+    height: 1px;
+    
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(3,3,3,0.3), rgba(0,0,0,0));
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(3,3,3,0.3), rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(3,3,3,0.3)), rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(3,3,3,0.3), rgba(0,0,0,0));
+	
+	margin-top:35px;
+	margin-bottom:45px;
+
+
+}
+
+p{
+	margin        : 20px 0px 20px 0px;
+	display       : block;
+	font-size   : 20px;
+	font-family : Courial;
+	font-weight : normal;	
+	text-align : center;	
+	color:#999;
+}
+
+#bottomButton{
+	margin        : 25px 0px 40px 100px ;
+	display       : block;
+	text-align : center;
+}
+
+#mainTitle{
+	margin        : 50px 0px 40px 0px ;
+	display       : block;
+	font-size   : 25px;
+	font-family : Courial;
+	font-weight : normal;
+	text-align : center;
+	color:#666;
+}
+
+#topSearchRow{	
+	text-align : center;
+	margin     : 30px;
+	width      : 100%;	
+}			
+
+#topSearchBox { 	
+	width       : 50%;
+	margin-left : 10px;
+	margin-right: 10px;
+	padding     : 5px;
+	border-color: #d3d3d3;
+	border-width: thin;
+	font-size   : 14px;
+	font-family : arial;
+	font-weight : normal;
+	text-align  : left;	
+}
+
+#topStatSearchBox { 	
+	width       : 200px;
+	margin-left : 10px;
+	margin-right: 10px;
+	padding     : 5px;
+	border-color: #d3d3d3;
+	border-width: thin;
+	font-size   : 14px;
+	font-family : arial;
+	font-weight : normal;
+	text-align  : left;	
+}
+
+#icone {	
+	border:0px ;
+	height: 22px;
+	width: 22px;
+	opacity:0.7;	
+}
+
+#mainLogo {
+	margin        : 0px auto;
+	display       : block;
+	padding-top   : 215px;
+	padding-bottom: 30px;
+}
+
+#mainSearchBox { 	
+	margin      : 0px auto;
+	display     : block;
+	width       : 690px;
+	padding     : 5px;
+	border-color: #d3d3d3;
+	border-width: thin;
+	font-size   : large;
+	font-family : arial;
+	font-weight : medium;
+	text-align  : left;
+}
+
+#button {	
+	margin:9px;
+	padding:6px 24px;
+	background-color:#f2f2f2;
+	border-radius:2px;
+	border:1px solid #dcdcdc;	
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	color:#666;
+	cursor:pointer;
+}
+
+#button:hover {	
+	border-color:#cccccc;
+}
+
+#buttonsRow{ 
+	text-align: center;
+}
+
+#saveChange{
+	
+	margin-top : 35px;
+	margin-left : 110px;
+	margin-bottom : 45px;
+	
+}
+
+/**********Table***************Table***************Table***************Table***************Table***************Table***************Table***************Table*********/
+
+table.myTable {
+	width:95%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:30px;
+	background: #EAEAEA;
+	background: -webkit-gradient(linear, left top, left bottom, from(#EAEAEA), to(#EAEAEA));
+	background: -moz-linear-gradient(top,  #EAEAEA,  #EAEAEA);
+	border-collapse: collapse;
+	border-spacing: 0px; 
+	font-family:arial;
+	color:#888;
+	font-size:13px;
+} 
+
+table.myTable tr {
+	padding-left:9px;	
+}
+
+table.myTable tbody tr:hover  {	
+	background: #AFB4C7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#AFB4C7), to(#AFB4C7));
+	background: -moz-linear-gradient(top,  #AFB4C7,  #AFB4C7);	
+	color: #fff;
+}
+
+table.myTable th:hover  {
+	background: #AFB4C7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#AFB4C7), to(#AFB4C7));
+	background: -moz-linear-gradient(top,  #AFB4C7,  #AFB4C7);	
+	color: #fff;
+}
+
+.trWaiting  {
+	background: #ffffff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+	background: -moz-linear-gradient(top,  #ffffff,  #ffffff);	
+}
+
+.trReception  {
+	background: #FFFFAF;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFFFAF), to(#FFFFAF));
+	background: -moz-linear-gradient(top,  #FFFFAF,  #FFFFAF);	
+}
+
+.trEnCours {	
+	background: #FFE2E2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFE2E2), to(#FFE2E2));
+	background: -moz-linear-gradient(top,  #FFE2E2,  #FFE2E2);
+}
+
+.trDone {
+	background: #DBE7F6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#DBE7F6), to(#DBE7F6));
+	background: -moz-linear-gradient(top,  #DBE7F6,  #DBE7F6);
+}
+
+table.myTable th {
+	padding:15px 25px 15px 25px;
+	cursor: pointer;
+	background: #EAEAEA;
+	background: -webkit-gradient(linear, left top, left bottom, from(#EAEAEA), to(#EAEAEA));
+	background: -moz-linear-gradient(top,  #EAEAEA,  #EAEAEA);
+	border-left: 1px solid #e0e0e0;
+	border-bottom:1px solid #e0e0e0;	
+}
+
+table.myTable th:first-child {
+	text-align: left;
+	padding-left:10px;
+	border-left: 0px ;
+}
+
+table.myTable td {	
+	padding:10px;
+	border-bottom:1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
+}
+
+table.myTable td:first-child {	
+	text-align: left;
+	padding-left:10px;
+}
+
+/********Form*************Form******* ******Form******* ******Form******* ******Form******* ******Form*******  */
+.myForm {	
+	margin: auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	max-width: 700px;
+	background-color:white;
+	background-image:url("../img/paper.jpg");
+	padding: 30px 30px 20px 30px;
+	box-shadow: rgba(187,187,187,1) 0 0px 20px -1px;
+	-webkit-box-shadow:rgba(187,187,187,1) 0 0px 20px -1px;
+	text-shadow: 1px 1px 1px #FFF;
+	border:1px solid #DDD;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.myForm h1 {
+	font: 29px  Helvetica, Arial, Sans-serif;
+	padding: 10px 10px 25px 40px;
+	display: block;
+	border-bottom: 1px solid #DbDbDb;
+	margin: -10px -30px 55px -30px;
+	color: #888;
+	
+}
+
+.myForm h1>span {
+	display: block;
+	font-size: 10px;
+	margin-bottom:20px;
+}
+
+.myForm h1>label {
+	
+	float: right;
+	font-size: 27px;
+	margin-right:27px;
+	margin-top:3px;
+	color:#DADADA;
+}
+
+.myForm label {
+	display: block;
+	margin: 0px 0px 0px;	
+}
+
+.myForm label>span {
+	float: left;
+	width: 20%;
+	text-align: right;
+	padding-right: 10px;
+	margin-top: 2px;
+	color: #888;
+	font: 11px  Helvetica, Arial, sans-serif;
+}
+
+.myForm input[type="text"], .myForm input[type="email"], .myForm textarea, .myForm select, .myForm input[type="date"]{	
+	border: 1px solid #CCC;
+	color: #888;
+	height: 20px;
+	line-height:15px;
+	text-shadow: 1px 1px 1px #FFF;
+	font-weight: 550;
+	margin-bottom: 16px;
+	margin-right: 6px;
+	margin-top: 2px;
+	margin-left:150px;
+	outline: 0 none;
+	padding: 5px 0px 5px 5px;
+	width: 70%;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px; 
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.myForm select {
+	text-indent: 0.01px;
+	text-overflow: '';
+	width: 71%;
+	height: 31px;
+	line-height:15px;
+	margin-left:150px;
+}
+
+.myForm textarea{
+	height:100px;
+	padding: 5px 0px 0px 5px;  
+	width: 70%;
+}
+
+.myForm .button {
+	background: #FFF;
+	border: 1px solid #CCC;
+	padding: 10px 25px 10px 25px;
+	color: #333;
+	border-radius: 4px;
+}
+
+.myForm .button:hover {
+	color: #333;
+	background-color: #EBEBEB;
+	border-color: #ADADAD;
+}
+
+.myForm input[type="checkbox"] {
+	margin-left:20px;
+}
+
+.checkBoxBox{
+	color: #888;
+	text-shadow: 1px 1px 1px #FFF;
+	font-weight: 550;
+	margin-bottom: 16px;
+	margin-right: 6px;
+	margin-top: 2px;
+	margin-left:150px;
+	width: 70%;
+}
+
+
+
